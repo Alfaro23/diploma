@@ -1,0 +1,58 @@
+main {
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+#container div {
+    background-color: #8EC0FF;
+    box-shadow: 3px 3px 4px 2px gray;
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+#container div span {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding: 5px 0px 10px 5px;
+}
+
+#container div img {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 85px;
+    width: 85px;
+    margin: 0px;
+    float: left;
+}
+
+#container div h2 {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    padding: 10px 0px 0px 5px;
+    float: left;
+    margin: 0px;
+}
+
+#container .del-btn {
+    position: unset;
+    padding: 0px 10px;
+    font-weight: 600;
+    line-height: 25px;
+    background-color: rgb(98, 167, 252);
+    color: #222;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    float: right;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+}
+
+#container .del-btn:hover {
+    background-color: indianred;
+}

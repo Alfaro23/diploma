@@ -1,0 +1,78 @@
+main {
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+input {
+    border: none;
+    width: 80%;
+    margin: 0px;
+    padding: 5px 0px;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+    background-color: #eee;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    right: 20%;
+    background-color: #8EC0FF;
+    color: #222;
+    line-height: 40px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    padding: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+#container div {
+    background-color: #8EC0FF;
+    box-shadow: 3px 3px 4px 2px gray;
+    height: 65px;
+    margin-bottom: 15px;
+}
+
+#container div span {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding: 5px 0px 10px 5px;
+}
+
+#container div h2 {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    padding: 10px 0px 0px 5px;
+    margin: 0px;
+}
+
+#container .del-btn {
+    position: unset;
+    padding: 0px 10px;
+    font-weight: 600;
+    line-height: 25px;
+    background-color: rgb(98, 167, 252);
+    color: #222;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    float: right;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+}
+
+#container .del-btn:hover {
+    background-color: indianred;
+}

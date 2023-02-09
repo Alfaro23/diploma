@@ -1,0 +1,90 @@
+main {
+    margin: 80px auto;
+    width: 50%;
+    border: black solid 3px;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #101;
+    box-shadow: 4px 5px 8px 4px #111;
+}
+
+h1, h2 {
+    margin: 0px;
+    /* width: 60%; */
+    display: inline-block;
+    font-style: oblique;
+}
+
+main b {
+    font-style: normal;
+    color: black
+}
+
+main span {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #010;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    border: solid black 3px;
+    width: 30%;
+}
+
+#player {
+    cursor: pointer;
+    width: 100%;
+    height: 400px;
+    font-style: oblique;
+    /* background-image: url('../files/player_back.jpg'); */
+    background-position-y: 40%;
+    float: right;
+    line-height: 150px;
+    font-size: 4em;
+    text-align: center;
+    color: #eee;
+    box-shadow: 2px 3px 5px 4px #111;
+    margin-top: 20px;
+}
+
+input {
+    float: left;
+    margin-top: 30px;
+    background: none;
+    width: 80%;
+    font-size: 1.3em;
+    border: none;
+    font-style: oblique;
+}
+
+main button {
+    width: 14%;
+    float: right;
+    margin-top: 28px;
+    padding: 2px;
+    font-size: 1.1em;
+    background: none;
+    font-style: oblique;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+main button:hover { color: #eee; }
+
+.avatar {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: none;
+    display: block;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.comment { overflow: hidden; }
+
+::-webkit-input-placeholder { color: #222; }

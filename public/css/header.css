@@ -1,0 +1,90 @@
+body {
+    background-image: url('../files/back1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+header h1 {
+    color: teal;
+    margin: 0px 20px 0px 10px;
+    font-style: italic;
+    font-family: fantasy;
+    display: inline-block;
+}
+
+header ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+header ul li {
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 1.3em;
+    line-height: 40px;
+    margin: 0px;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 0px 12px;
+    color: #eee;
+    height: 100%;
+    width: 100%;
+}
+
+header ul li:hover { 
+    line-height: 37px;
+    border-bottom: 2px solid #eee;
+}
+
+header ul li:hover a { color: teal; }
+
+header div {
+    width: 100%;
+    height: 20px;
+    background-color: teal;
+}
+
+header button {
+    cursor: pointer;
+    float: right;
+    line-height: 40px;
+    font-size: 1.2em;
+    background: none;
+    color: #eee;
+    border: none;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+header button:hover {
+    background-color: teal;
+}
+
+header span {
+    float: right;
+    line-height: 40px;
+    font-size: 1.2em;
+    padding: 0px;
+    background: none;
+    color: teal;
+    border: none;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+header span i { color: #eee; }

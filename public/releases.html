@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANIME::SET</title>
+    <link rel="shortcut icon" href="../files/nya.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/releases.css">
+</head>
+
+<body>
+    <header>
+        <h1>Anime::SET</h1>
+        <ul>
+            <li><a href="./index.html">Главная страница</a></li>
+            <li><a href="./releases.html">Релизы</a></li>
+            <li id="random-release"><a>Случайно</a></li>
+        </ul>
+
+        <a id="login-btn" href="./login.html">
+            <button>Войти</button>
+        </a>
+
+        <button id="logout-btn">Выйти</button>
+        <span id="nick-text"></span>
+
+        <div></div>
+    </header>
+
+    <main id="container"> </main>
+
+    <script src="./js/releases_page.js"></script>
+    <script src="./js/random_release.js"></script>
+    <script src="./js/header.js"></script>
+    <script>showReleases()</script>
+</body>
+
+</html>

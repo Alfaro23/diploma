@@ -1,0 +1,151 @@
+main {
+    position: relative;
+    background-color: #8EC0FF;
+    box-shadow: 3px 3px 4px 2px gray;
+    margin: 100px auto;
+    padding: 8px;
+    padding-bottom: 60px;
+    width: 600px;
+}
+
+main h1, h3 {
+    margin: 5px 0px;
+    color: #333;
+}
+
+main input[type="text"], main input[type="url"] {
+    width: 90%;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+main input[type="checkbox"] {
+    width: 10%;
+    background: none;
+    border: none;
+    height: 20px;
+    margin: 0px;
+    width: 25px;
+}
+
+main textarea {
+    background-color: rgb(181, 214, 255);
+    font-style: italic;
+    font-weight: 500;
+    resize: none;
+    font-size: 0.95em;
+    width: 99%;
+}
+
+
+main span {
+    line-height: 20px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 500;
+    font-style: italic;
+}
+
+main select {
+    background: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+
+
+}
+
+main ul {
+    margin: 2px 5px;
+    padding-left: 18px;
+    list-style: square;
+    font-style: italic;
+}
+
+#add_genre, #add_voicer {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#add_genre:hover, #add_voicer:hover {
+    color: #eee;
+}
+
+#send-btn {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(95, 153, 224);
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #333;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #333;
+    color: #eee;
+}
+
+aside {
+    background-color: #8EC0FF;
+    height: 94vh;
+    width: 300px;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    padding: 6vh 0px 0px 0px;
+    overflow-y: scroll;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0px;
+}
+
+aside ul li {
+    cursor: cell;
+    padding: 5px 20px 5px 5px;
+    position: relative;
+}
+
+aside ul li:hover {
+    background-color: rgb(98, 167, 252);
+    font-weight: 700px;
+    
+}
+
+aside div {
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    font-size: 1.4em;
+    line-height: 10px;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+aside div:hover {
+    color: indianred;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #c1c1c1; }
+::-webkit-scrollbar-thumb { background: #888; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+::placeholder {
+    color: rgb(55, 118, 196);
+}

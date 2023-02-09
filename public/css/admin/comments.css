@@ -1,0 +1,33 @@
+main {
+    margin: 200px auto;
+    width: 800px;
+    text-align: center;
+}
+
+main input {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #434;
+    background-color: #eee;
+    border: none;
+    border-bottom: solid dodgerblue 4px;
+}
+
+#button {
+    cursor: pointer;
+    background-color: dodgerblue;
+    width: 100%;
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#button:hover {
+    background-color: #222;
+    color: #eee;
+}

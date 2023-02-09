@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ANIME::SET</title>
+    <link rel="shortcut icon" href="../files/nya.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <header>
+        <h1>Anime::SET</h1>
+        <ul>
+            <li><a href="./index.html">Главная страница</a></li>
+            <li><a href="./releases.html">Релизы</a></li>
+            <li id="random-release"><a>Случайно</a></li>
+        </ul>
+
+        <a id="login-btn" href="./login.html">
+            <button>Войти</button>
+        </a>
+
+        <button id="logout-btn">Выйти</button>
+        <span id="nick-text"></span>
+
+        <div></div>
+    </header>
+
+    <main>
+        <h1>Аутентификация:</h1>
+
+        <div>
+            <input id="nick" type="text" spellcheck="false" placeholder="Введите свой логин...">
+            <input id="pass" type="password" placeholder="Введите свой пароль...">
+            <br>
+            <label>
+                <input id="register" type="checkbox"> Зарегистрироватся?
+            </label>
+            <input id="img" type="text" spellcheck="false" placeholder="Введите URL аватара...">
+        </div>
+
+        <div>
+            <button id="log-in">Войти</button>
+        </div>
+    </main>
+
+    <script src="./js/auth.js"></script>
+    <script src="./js/random_release.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

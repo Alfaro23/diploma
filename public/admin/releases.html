@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Релизы</title>
+    <link rel="shortcut icon" href="../files/nya.png" type="image/png">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/admin/header.css">
+    <link rel="stylesheet" href="../css/admin/releases.css">
+</head>
+<body>
+    <header>
+        <div>// admin_mode: [ Релизы ]</div>
+            <ul>
+                <li><a href="./releases.html">Релизы</a></li>
+                <li><a href="./genres.html">Жанры</a></li>
+                <li><a href="./voicers.html">Актеры озвучки</a></li>
+                <li><a href="./users.html">Пользователи</a></li>
+                <li><a href="./comments.html">Комментарии</a></li>
+            </ul>
+    </header>
+    
+    <aside>
+        <ul id="releases_list"></ul>
+    </aside>
+
+    <main>
+        <h1>Добавить релиз:</h1>
+        <input id="translated_name" type="text" spellcheck="false"  placeholder="Введите название релиза...">
+        <input id="original_name" type="text" spellcheck="false"  placeholder="Введите оригинальное название...">
+        <input id="release_year" type="text" spellcheck="false"  placeholder="Введите год выхода...">
+        <input id="release_episodes" type="text" spellcheck="false"  placeholder="Введите количество эпизодов...">
+        <div style="float: left;">
+            <h3>Актеры озвучки:</h3>
+            <select id="voicer_selector"></select>
+            <span id="add_voicer">+</span>
+            <ul id="voicers_list"></ul>
+        </div>
+
+        <div style="float: right; margin-right: 100px;">
+            <h3>Жанры:</h3>
+            <select id="genre_selector"></select>
+            <span id="add_genre">+</span>
+            <ul id="genres_list"></ul>
+        </div>
+
+        <textarea id="description" spellcheck="false" cols="30" rows="10" placeholder="Введите описание релиза..."></textarea>
+        <input id="image_url" type="url" spellcheck="false"  placeholder="Введите URL изображения релиза...">
+        <br>
+        <input id="release_ongoing" type="checkbox"> <span>Еще выходит?</span>
+        <div id="send-btn"> Отправить! </div>
+    </main>
+    
+    <script src="../js/releases.js"></script>
+    <script>
+        init()
+        update()
+    </script>
+</body>
+</html>

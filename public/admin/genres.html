@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Жанры</title>
+    <link rel="shortcut icon" href="../files/nya.png" type="image/png">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/admin/header.css">
+    <link rel="stylesheet" href="../css/admin/voicers_genres.css">
+</head>
+<body>
+    <header>
+        <div>// admin_mode: [ Жанры ]</div>
+        <ul>
+            <li><a href="./releases.html">Релизы</a></li>
+            <li><a href="./genres.html">Жанры</a></li>
+            <li><a href="./voicers.html">Актеры озвучки</a></li>
+            <li><a href="./users.html">Пользователи</a></li>
+            <li><a href="./comments.html">Комментарии</a></li>
+        </ul>
+    </header>
+
+    <main >
+        <input id="textField" type="text" placeholder="Введите название жанра...">
+        <button id="addButton">Добавить</button>
+        <div id="container"></div>
+    </main>
+
+    <script src="../js/genres.js"></script>
+    <script> update() </script>
+</body>
+</html>
